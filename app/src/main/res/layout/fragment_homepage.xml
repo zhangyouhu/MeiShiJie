@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginLeft="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:background="#eee"
+            android:drawableRight="@drawable/tj_left_icon"/>
+        <EditText
+            android:padding="5dp"
+            android:layout_margin="4dp"
+            android:drawablePadding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="7"
+            android:drawableLeft="@drawable/topsearch_icon"
+            android:hint="搜索你感兴趣的"
+            android:background="#cfcccc"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/tj_msg"
+            android:background="#eee"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
